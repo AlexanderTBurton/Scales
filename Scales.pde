@@ -1,8 +1,8 @@
 void setup() {
   size(500, 500);
   background(10,10,10);
-    for(int f=0; f<500; f+=50) {
-      for(int i=0; i<500; i+=10) {
+    for(int f=0; f<height; f+=50) {
+      for(int i=0; i<width; i+=10) {
         scale(i,f);
       }
    }
